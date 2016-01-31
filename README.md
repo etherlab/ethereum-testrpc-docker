@@ -73,3 +73,6 @@ Copy paste and run this last line as needed, don't forget to replace YOUR_CONTAI
 REM     FOR /f "tokens=*" %i IN ('"C:\Program Files\Docker Toolbox\docker-machine" env YOUR_CONTAINER --shell=cmd') DO %i 
 ````
 
+
+
+If it worked, you can tip here : 0xabfb7b27cdad525f1657c0ae8a8ae3afa37c110a
