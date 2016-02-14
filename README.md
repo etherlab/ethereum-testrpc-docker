@@ -36,16 +36,16 @@ You can use your containers ip to map your dapp with the testrpc container.
 Example in javascript with web3.js
 
 ````javascript
-
+var provider = "http://192.168.99.100:8545";
 if(typeof web3 !== 'undefined')
   web3 = new Web3(web3.currentProvider);
 else
-  web3 = new Web3(new Web3.providers.HttpProvider("http://192.168.99.100:8545"));
+  web3 = new Web3(new Web3.providers.HttpProvider(provider));
 
 if(!web3.isConnected()) {
-	console.log("prout :'(");
+	console.log("Not connected");
 } else {
-	console.log('Pas prout :D');
+	console.log('Connection successful with ' + provider);
 }
 ````
 
