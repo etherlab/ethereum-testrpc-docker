@@ -17,4 +17,4 @@ RUN ifconfig
 
 EXPOSE 8545
 
-CMD testrpc-py --domain=0.0.0.0
+CMD testrpc-py --host=0.0.0.0
